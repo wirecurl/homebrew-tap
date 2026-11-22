@@ -12,7 +12,7 @@ cask "ferge" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "ferge.app"
   binary "#{appdir}/ferge.app/Contents/MacOS/ferge"
